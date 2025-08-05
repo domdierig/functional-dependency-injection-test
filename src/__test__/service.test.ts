@@ -2,9 +2,7 @@ import { test, describe, jest, expect, beforeEach } from '@jest/globals';
 import { service, init } from '../service';
 import { WriteToDBInterface } from '../interfaces';
 
-
 describe('Service Tests', () => {
-
     beforeEach(() => {
         jest.clearAllMocks();
     });
