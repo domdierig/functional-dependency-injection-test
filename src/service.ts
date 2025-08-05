@@ -1,5 +1,14 @@
-const foo = () => {
-    console.log("Hello, World!");
+
+import { WriteToDBInterface } from "./interfaces";
+
+let writeToDB: WriteToDBInterface;
+
+const init = (writeToDBImpl: WriteToDBInterface) => {
+    writeToDB = writeToDBImpl;
+};
+
+const service = () => {
+    writeToDB("Hello, World!");
 }
 
-export { foo };
+export { init, service };

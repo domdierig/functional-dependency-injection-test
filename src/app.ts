@@ -1,3 +1,5 @@
-import { foo } from './service';
+import { init, service } from './service';
+import { writeToDBImpl } from './dependency';
 
-foo();
+init(writeToDBImpl);
+service();
