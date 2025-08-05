@@ -1,2 +1,4 @@
 # functional-dependency-injection-test
-A TypeScript experiment exploring how to build software using a functional programming approach, without classes or traditional OOP, while maintaining high testability and enabling effective dependency injection.
+This repository explores how to design and implement software in TypeScript using a functional programming style. The goal is to avoid object-oriented constructs like classes and instead rely on pure functions and composable modules, without sacrificing testability or clean dependency injection.
+
+The project focuses on architectural patterns, inversion of control, and strategies to make functional codebases maintainable and scalable.
