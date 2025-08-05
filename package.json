@@ -4,6 +4,7 @@
   "description": "A TypeScript experiment exploring how to build software using a functional programming approach, without classes or traditional OOP, while maintaining high testability and enabling effective dependency injection.",
   "main": "app.ts",
   "scripts": {
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/domdierig/functional-dependency-injection-test/issues"
   },
-  "homepage": "https://github.com/domdierig/functional-dependency-injection-test#readme"
+  "homepage": "https://github.com/domdierig/functional-dependency-injection-test#readme",
+  "dependencies": {
+    "@types/node": "^24.2.0",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.3"
+  }
 }
